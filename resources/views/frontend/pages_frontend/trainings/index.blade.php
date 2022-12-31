@@ -32,7 +32,7 @@ Trainings
 			<div class="service-details">
 				<div class="container">
 					<div class="box-wrapper">
-						<img src="images/home/bi2.png" alt="" class="feature-image">
+						<img src="assets/frontend/images/home/bi2.png" alt="" class="feature-image">
 						<div class="title clearfix">
 							<h3 class="float-left">ANALYTICS COURSE</h3>
 							<a href="#" class="loan float-right">Apply Now</a>
@@ -156,6 +156,6 @@ Trainings
 				</div> <!-- /.container -->
 			</div> <!-- /.service-details -->
 
-			
+
 
 @endsection
