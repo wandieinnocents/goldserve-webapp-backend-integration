@@ -1,71 +1,66 @@
-<section class="banner-section style-two">
-    <div class="banner-carousel kausid-carousel owl-theme owl-carousel"
-        data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-        <!-- Slide Item -->
-        <div class="slide-item">
-            <div class="image-layer" style="background-image:url('assets/frontend_assets/images/main-slider/slid1.png')">
-            </div>
-            <div class="auto-container">
-                <div class="content-box">
-                    <div class="content">
-                        <div class="inner">
-                            <div class="sub-title">we support the community</div>
-                            <h2>We empower lives of people with need</h2>
-                            <div class="links-box">
-                                <a href="/contact/create" class="theme-btn btn-style-two"><span
-                                        class="btn-title">CONTACT</span></a>
-                                {{-- <span class="theme-icon"></span> --}}
-                                <a href="/donate/create" class="theme-btn btn-style-three"><span
-                                        class="btn-title">Donate</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Slide Item -->
-        <div class="slide-item">
-            <div class="image-layer" style="background-image:url('assets/frontend_assets/images/main-slider/slid2.png')">
-            </div>
-            <div class="auto-container">
-                <div class="content-box">
-                    <div class="content">
-                        <div class="inner">
-                            <div class="sub-title">we can save the world together</div>
-                            <h2>We change peoples lives , one at a time.</h2>
-                            <div class="links-box">
-                                <a href="/contact/create" class="theme-btn btn-style-two"><span
-                                        class="btn-title">CONTACT</span></a>
-                                {{-- <span class="theme-icon"></span> --}}
-                                <a href="/donate/create" class="theme-btn btn-style-three"><span
-                                        class="btn-title">Donate</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Slide Item -->
-        <div class="slide-item">
-            <div class="image-layer" style="background-image:url('assets/frontend_assets/images/main-slider/slid3.png')">
-            </div>
-            <div class="auto-container">
-                <div class="content-box">
-                    <div class="content">
-                        <div class="inner">
-                            <div class="sub-title">we implement projects for the better</div>
-                            <h2>Running projects that benefit the community</h2>
-                             <div class="links-box">
-                                <a href="/contact/create" class="theme-btn btn-style-two"><span
-                                        class="btn-title">CONTACT</span></a>
-                                {{-- <span class="theme-icon"></span> --}}
-                                <a href="/donate/create" class="theme-btn btn-style-three"><span
-                                        class="btn-title">Donate</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<div id="theme-main-banner" class="banner-two">
+				<div data-src="assets/frontend/images/home/qhse.jpg">
+					<div class="camera_caption">
+						<div class="container">
+							<h5 class="wow fadeInUp animated">Service Excellences</h5>
+							<h1 class="wow fadeInUp animated" data-wow-delay="0.2s">Business Support   <br> services.</h1>
+							<a href="course-2-column.html" class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">Explore Now</a>
+							<!-- <div class="play-option wow fadeInRight animated" data-wow-delay="0.255s">
+								<div class="watch-video">
+									<h6>Watch</h6>
+									<h4>Intro Video</h4>
+									<a data-fancybox href="https://www.youtube.com/embed/r-AuLm7S3XE?rel=0&amp;showinfo=0" class="tran3s"><i class="fa fa-play" aria-hidden="true"></i></a>
+								</div>
+							</div> -->
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+				<div data-src="assets/frontend/images/home/first_aid.jpg">
+					<div class="camera_caption">
+						<div class="container">
+							<h5 class="wow fadeInUp animated">Service Excellences</h5>
+							<h1 class="wow fadeInUp animated" data-wow-delay="0.2s">Training</h1>
+							<a href="course-2-column.html" class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">Explore Now</a>
+							<!-- <div class="play-option wow fadeInRight animated" data-wow-delay="0.255s">
+								<div class="watch-video">
+									<h6>Watch</h6>
+									<h4>Intro Video</h4>
+									<a data-fancybox href="https://www.youtube.com/embed/r-AuLm7S3XE?rel=0&amp;showinfo=0" class="tran3s"><i class="fa fa-play" aria-hidden="true"></i></a>
+								</div>
+							</div> -->
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+				<div data-src="assets/frontend/images/home/expert.jpg">
+					<div class="camera_caption">
+						<div class="container">
+							<h5 class="wow fadeInUp animated">Service Excellences</h5>
+							<h1 class="wow fadeInUp animated" data-wow-delay="0.2s">Technological Manpower<br>Services.</h1>
+							<a href="course-2-column.html" class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">Explore Now</a>
+							<!-- <div class="play-option wow fadeInRight animated" data-wow-delay="0.255s">
+								<div class="watch-video">
+									<h6>Watch</h6>
+									<h4>Intro Video</h4>
+									<a data-fancybox href="https://www.youtube.com/embed/r-AuLm7S3XE?rel=0&amp;showinfo=0" class="tran3s"><i class="fa fa-play" aria-hidden="true"></i></a>
+								</div>
+							</div> -->
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+				<div data-src="assets/frontend/images/home/qhse1.jpg">
+					<div class="camera_caption">
+						<div class="container">
+							<h5 class="wow fadeInUp animated">Service Excellences</h5>
+							<h1 class="wow fadeInUp animated" data-wow-delay="0.2s">General Supplies<br>and works</h1>
+							<a href="course-2-column.html" class="tran3s hvr-trim wow fadeInUp animated p-bg-color button-one" data-wow-delay="0.3s">Explore Now</a>
+							<!-- <div class="play-option wow fadeInRight animated" data-wow-delay="0.255s">
+								<div class="watch-video">
+									<h6>Watch</h6>
+									<h4>Intro Video</h4>
+									<a data-fancybox href="https://www.youtube.com/embed/r-AuLm7S3XE?rel=0&amp;showinfo=0" class="tran3s"><i class="fa fa-play" aria-hidden="true"></i></a>
+								</div>
+							</div> -->
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+			</div> <!-- /#theme-main-banner -->
