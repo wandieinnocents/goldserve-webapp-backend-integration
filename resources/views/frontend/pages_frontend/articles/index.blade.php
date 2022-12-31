@@ -51,9 +51,9 @@
 
                         <div class="text">
                             <h6>By: {{ $post->post_created_by }}</h6>
-                            <h5><a href="blog-details.html" class="tran3s">{{ $post->post_title }}</a></h5>
+                            <h5><a href="{{ route('articles.show',$post->id) }}" class="tran3s">{{ $post->post_title }}</a></h5>
                             <p>{{ $post->post_description }}</p>
-                            <a href="blog-details.html" class="tran3s"><i class="flaticon-arrows"
+                            <a href="{{ route('articles.show',$post->id) }}" class="tran3s"><i class="flaticon-arrows"
                                     aria-hidden="true"></i></a>
                         </div>
                     </div>
