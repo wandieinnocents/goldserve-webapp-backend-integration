@@ -27,12 +27,12 @@
                     </a>
                 </li>
                 {{-- volunteers --}}
-                <li>
+                <!-- <li>
                     <a href="/volunteers">
                         <i class="fas fa-comment-alt "></i>
                         <span data-key="t-dashboard">Volunteers</span>
                     </a>
-                </li>
+                </li> -->
                 <!-- Resources -->
                 {{-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
@@ -363,7 +363,7 @@
                     <div class="mt-4">
                         <h5 class="alertcard-title font-size-16">Developer</h5>
                         <p class="font-size-13">Wandie Innocent</p>
-                        <a href="#!" class="btn btn-primary mt-2">Say Hello</a>
+                        <a href="" class="btn btn-primary mt-2"><span style="color:white;"> +256706382817 </span></a>
                     </div>
                 </div>
             </div>
