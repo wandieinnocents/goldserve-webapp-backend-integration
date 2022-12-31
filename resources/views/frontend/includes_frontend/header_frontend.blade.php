@@ -53,10 +53,10 @@
 										</ul>
 									</li>
 
-								    <li><a href="service-details.html">Testimonials</a></li>
+								    <li><a href="/testimonials">Testimonials</a></li>
 									<li><a href="/articles">Blogs</a></li>
 
-									<li><a href="training.html">Trainings</a></li>
+									<li><a href="/trainings">Trainings</a></li>
 
 									<li class="menu-list"><a href="/contact/create" class="tran3s">Contact Us</a></li>
 									<!-- <li class="login-button"><a href="#" class="tran3s" data-toggle="modal" data-target=".signUpModal">login</a></li> -->
