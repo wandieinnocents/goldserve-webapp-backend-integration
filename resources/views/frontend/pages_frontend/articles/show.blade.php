@@ -30,6 +30,10 @@
 				<div class="container">
 					<div class="wrapper">
 						<div class="blog-main-post">
+
+                            <h6>{{ $post->post_title }}</h6>
+                            <h6 style="margin-top: 20px;">By: {{ $post->post_created_by }} | {{ $post->post_category_r->post_category_name }}</h6>
+
                             @if (($post->post_photo))
                             <div class="single-blog">
                                 <div class="image">
@@ -39,8 +43,7 @@
                                 <p class="text-danger">No Photo</p>
                             @endif
 
-							<h6>{{ $post->post_title }}</h6>
-                            <h6 style="margin-top: 20px;">By: {{ $post->post_created_by }}</h6>
+
 							<p>{{ $post->post_description }} </p> <br>
 
 						</div> <!-- /.blog-main-post -->
