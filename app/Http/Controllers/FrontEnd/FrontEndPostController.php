@@ -16,10 +16,10 @@ class FrontEndPostController extends Controller
      */
     public function index()
     {
-        $posts = Post::all();
+        $posts = Post::paginate(20);
         $post_categories_fetch = PostCategory::all();
         // dd($post_categories_fetch->post_category_name   );
-        return view('frontend.pages_frontend.articles.index',compact('posts','post_categories_fetch'));     
+        return view('frontend.pages_frontend.articles.index',compact('posts','post_categories_fetch'));
 
     }
 

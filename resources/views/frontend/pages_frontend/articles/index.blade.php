@@ -64,11 +64,17 @@
                     {{-- PAGINATION --}}
 
                     <ul class="page-pagination">
-                        <li class="active"><a href="#" class="tran3s">1</a></li>
-                        <li><a href="#" class="tran3s">2</a></li>
-                        <li><a href="#" class="tran3s">3</a></li>
-                        <li><a href="#" class="tran3s">Next</a></li>
+                        
+
+                        {!! $posts->links() !!}
+
                     </ul>
+
+
+
+
+
+
                 </div> <!-- /.col- -->
                 <!-- ======================== Sidebar ========================= -->
                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 blog-sidebar">
