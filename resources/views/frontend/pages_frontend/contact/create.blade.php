@@ -35,7 +35,14 @@
 					<div class="row">
 						<div class="col-lg-7 col-md-6 col-xs-12">
 							<div class="contact-us-form">
-								<form action="" class="form-validation" autocomplete="off">
+                                {{-- success message --}}
+                                @if(session()->has('message'))
+                                <div class="alert alert-info">
+                                    {{ session('message') }}
+                                </div>
+                            @endif
+                            <form  method="post" action="{{ route('contact.store') }}">
+                                    @csrf
 
 
                                     <input type="text" placeholder="Full Name" name="name">
@@ -43,8 +50,8 @@
                                     <input type="text" placeholder="Phone" name="phone">
                                     <input type="email" placeholder="Email Address*" name="email">
 
-									<textarea placeholder="Your Message*" name="message"></textarea>
-									<button class="p-bg-color hvr-trim-two">SEND MESSAGE</button>
+									<textarea placeholder="Your Message*" name="description"></textarea>
+									<button type="submit" class="p-bg-color hvr-trim-two">SEND MESSAGE</button>
 								</form>
 							</div> <!-- /.contact-us-form -->
 						</div> <!-- /.col- -->

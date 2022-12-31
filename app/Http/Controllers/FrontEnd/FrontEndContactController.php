@@ -40,8 +40,8 @@ class FrontEndContactController extends Controller
         $contact = new FrontEndContact();
         $contact->name         = $request->name;
         $contact->email        = $request->email;
-        // $contact->phone        = $request->phone;
-        // $contact->subject      = $request->subject;
+        $contact->phone        = $request->phone;
+        $contact->subject      = $request->subject;
         $contact->description  = $request->description;
 
         // send copy to email
@@ -50,6 +50,7 @@ class FrontEndContactController extends Controller
 
         // save to DB
         $contact->save();
+
         // dd($contact);
         return redirect()->back()->with('message', 'Thank you for Contacting us!');
     }
