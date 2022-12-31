@@ -65,7 +65,7 @@
                     </ul>
                 </li> --}}
                 <!-- Gallery -->
-                <li>
+                {{-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-photo-video"></i>
                         <span data-key="t-apps">Photos</span>
@@ -91,9 +91,11 @@
                                 <span data-key="t-chat">View Photos</span>
                             </a>
                         </li>
-                        {{-- video  --}}
                     </ul>
-                </li>
+                </li> --}}
+
+
+
                 {{-- Video gallery --}}
                 <!-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
@@ -171,7 +173,7 @@
                         </li>
                     </ul>
                 </li> -->
-              
+
                 {{-- events --}}
                  <!-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
@@ -363,7 +365,7 @@
                     <div class="mt-4">
                         <h5 class="alertcard-title font-size-16">Developer</h5>
                         <p class="font-size-13">Wandie Innocent</p>
-                        <a href="" class="btn btn-primary mt-2"><span style="color:white;"> +256706382817 </span></a>
+                        <a href="" class="btn btn-primary mt-2"><span style="color:white;"> w:+256706382817 </span></a>
                     </div>
                 </div>
             </div>
