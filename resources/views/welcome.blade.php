@@ -68,7 +68,7 @@
 				<div class="header-wrapper">
 					<div class="container">
 						<!-- Logo -->
-						<div class="logo float-left tran4s"><a href="index-2.html"><img src="images/logo/logo02.png" alt="Logo"></a></div>
+						<div class="logo float-left tran4s"><a href="/"><img src="assets/frontend/images/logo/logo02.png" alt="Logo"></a></div>
 
 						<!-- ============================ Theme Menu ========================= -->
 						<nav class="theme-main-menu float-right navbar" id="mega-menu-wrapper">
@@ -139,7 +139,7 @@
 			============================================== 
 			-->
 			<div id="theme-main-banner" class="banner-two">
-				<div data-src="images/home/qhse.jpg">
+				<div data-src="assets/frontend/images/home/qhse.jpg">
 					<div class="camera_caption">
 						<div class="container">
 							<h5 class="wow fadeInUp animated">Service Excellences</h5>
@@ -155,7 +155,7 @@
 						</div> <!-- /.container -->
 					</div> <!-- /.camera_caption -->
 				</div>
-				<div data-src="images/home/first_aid.jpg">
+				<div data-src="assets/frontend/images/home/first_aid.jpg">
 					<div class="camera_caption">
 						<div class="container">
 							<h5 class="wow fadeInUp animated">Service Excellences</h5>
@@ -171,7 +171,7 @@
 						</div> <!-- /.container -->
 					</div> <!-- /.camera_caption -->
 				</div>
-				<div data-src="images/home/expert.jpg">
+				<div data-src="assets/frontend/images/home/expert.jpg">
 					<div class="camera_caption">
 						<div class="container">
 							<h5 class="wow fadeInUp animated">Service Excellences</h5>
@@ -187,7 +187,7 @@
 						</div> <!-- /.container -->
 					</div> <!-- /.camera_caption -->
 				</div>
-				<div data-src="images/home/qhse1.jpg">
+				<div data-src="assets/frontend/images/home/qhse1.jpg">
 					<div class="camera_caption">
 						<div class="container">
 							<h5 class="wow fadeInUp animated">Service Excellences</h5>
@@ -409,7 +409,7 @@
 							</li>
 						</ul>
 					</div> <!-- /.main-container -->
-					<img src="images/home/shape-2.png" alt="Image" class="wow fadeInLeft">
+					<img src="assets/frontend/images/home/shape-2.png" alt="Image" class="wow fadeInLeft">
 				</div> <!-- /.container -->
 			</div> <!-- /.home-service-section -->
 
@@ -479,19 +479,19 @@
 				<div class="container">
 					
 					<div id="partner-logo">
-						<div class="item"><img src="images/logo/1.png" alt="logo"></div>
-						<div class="item"><img src="images/logo/2.png" alt="logo"></div>
-						<div class="item"><img src="images/logo/3.png" alt="logo"></div>
-						<div class="item"><img src="images/logo/4.png" alt="logo"></div>
-						<div class="item"><img src="images/logo/5.png" alt="logo"></div>
-						<div class="item"><img src="images/logo/6.png" alt="logo"></div>
-						<div class="item"><img src="images/logo/7.png" alt="logo"></div>
-						<div class="item"><img src="images/logo/8.png" alt="logo"></div>
-						<div class="item"><img src="images/logo/9.png" alt="logo"></div>
-						<div class="item"><img src="images/logo/10.png" alt="logo"></div>
-						<div class="item"><img src="images/logo/11.png" alt="logo"></div>
-						<div class="item"><img src="images/logo/12.png" alt="logo"></div>
-						<div class="item"><img src="images/logo/13.png" alt="logo"></div>
+						<div class="item"><img src="assets/frontend/images/logo/1.png" alt="logo"></div>
+						<div class="item"><img src="assets/frontend/images/logo/2.png" alt="logo"></div>
+						<div class="item"><img src="assets/frontend/images/logo/3.png" alt="logo"></div>
+						<div class="item"><img src="assets/frontend/images/logo/4.png" alt="logo"></div>
+						<div class="item"><img src="assets/frontend/images/logo/5.png" alt="logo"></div>
+						<div class="item"><img src="assets/frontend/images/logo/6.png" alt="logo"></div>
+						<div class="item"><img src="assets/frontend/images/logo/7.png" alt="logo"></div>
+						<div class="item"><img src="assets/frontend/images/logo/8.png" alt="logo"></div>
+						<div class="item"><img src="assets/frontend/images/logo/9.png" alt="logo"></div>
+						<div class="item"><img src="assets/frontend/images/logo/10.png" alt="logo"></div>
+						<div class="item"><img src="assets/frontend/images/logo/11.png" alt="logo"></div>
+						<div class="item"><img src="assets/frontend/images/logo/12.png" alt="logo"></div>
+						<div class="item"><img src="assets/frontend/images/logo/13.png" alt="logo"></div>
 					</div>
 				</div>
 			</div> <!-- /.partent-logo-section -->
@@ -600,7 +600,7 @@
 					<div class="row">
 						<div class="col-md-6 col-xs-12">
 							<div class="single-blog color-one">
-								<img src="images/home/6.jpg" alt="">
+								<img src="assets/frontend/images/home/6.jpg" alt="">
 								<h6>Isaac Goldserve</h6>
 								<h5><a href="blog-details.html" class="tran3s">WE OPENING NEW BRANCH ON ...</a></h5>
 								<!-- <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p> -->
@@ -609,7 +609,7 @@
 						</div> <!-- /.col- -->
 						<div class="col-md-6 col-xs-12">
 							<div class="single-blog color-two">
-								<img src="images/home/7.jpg" alt="">
+								<img src="assets/frontend/images/home/7.jpg" alt="">
 								<h6>Esther</h6>
 								<h5><a href="blog-details.html" class="tran3s">ESTIMATE COST FOR YOUR SHIPMENT</a></h5>
 								<!-- <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p> -->
@@ -618,7 +618,7 @@
 						</div> <!-- /.col- -->
 						<div class="col-md-6 col-xs-12">
 							<div class="single-blog color-three">
-								<img src="images/home/8.jpg" alt="">
+								<img src="assets/frontend/images/home/8.jpg" alt="">
 								<h6>Adams</h6>
 								<h5><a href="blog-details.html" class="tran3s">Challange yourself to win the future</a></h5>
 								<!-- <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p> -->
@@ -627,7 +627,7 @@
 						</div> <!-- /.col- -->
 						<div class="col-md-6 col-xs-12">
 							<div class="single-blog color-four">
-								<img src="images/home/9.jpg" alt="">
+								<img src="assets/frontend/images/home/9.jpg" alt="">
 								<h6>Austin Cross</h6>
 								<h5><a href="blog-details.html" class="tran3s">Challange yourself to win the future</a></h5>
 								<!-- <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p> -->
@@ -650,7 +650,7 @@
 					<div class="row">
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="footer-logo">
-								<a href="#"><img src="images/logo/logo02.png" alt="Logo"></a>
+								<a href="#"><img src="assets/frontend/images/logo/logo02.png" alt="Logo"></a>
 								<!-- <h5><a href="#" class="tran3s">consulting@gold-serve.com</a></h5>
 								<h6 class="p-color">202. 277. 3894</h6> -->
 							</div>
