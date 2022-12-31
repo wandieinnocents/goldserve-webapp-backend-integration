@@ -97,7 +97,7 @@
 
 
                     {{-- CATEGORIES --}}
-                    <div class="sidebar-box blog-categories">
+                    {{-- <div class="sidebar-box blog-categories">
                         <h3>Categories</h3>
                         <hr>
                         <ul>
@@ -107,7 +107,7 @@
                             @endforeach
 
                         </ul>
-                    </div> <!-- /.blog-categories -->
+                    </div>  --}}
 
 
                 </div> <!-- /.blog-sidebar -->
