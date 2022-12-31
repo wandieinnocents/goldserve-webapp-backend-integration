@@ -64,7 +64,7 @@
                     {{-- PAGINATION --}}
 
                     <ul class="page-pagination">
-                        
+
 
                         {!! $posts->links() !!}
 
@@ -89,7 +89,7 @@
 
                     <div class="sidebar-box sidebar-recent-post">
                         {{-- LATEST BLOGS --}}
-                        <h3>Latest Blogs</h3>
+                        <h3>Rescent Blogs</h3>
                         <ul>
                             @foreach($posts as $post)
                             <li>
