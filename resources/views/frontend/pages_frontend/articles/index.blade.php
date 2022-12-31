@@ -50,7 +50,7 @@
 
 
                         <div class="text">
-                            <h6>Admin</h6>
+                            <h6>By: {{ $post->post_created_by }}</h6>
                             <h5><a href="blog-details.html" class="tran3s">{{ $post->post_title }}</a></h5>
                             <p>{{ $post->post_description }}</p>
                             <a href="blog-details.html" class="tran3s"><i class="flaticon-arrows"
