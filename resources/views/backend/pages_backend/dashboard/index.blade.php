@@ -35,7 +35,7 @@ Dashboard
                                     <div class="card-body bg-gradient bg-success">
                                         <div class="row align-items-center">
                                             <div class="col-6">
-                                            <span class="text-light mb-3 lh-1 d-block ">Photo Categories</span>                                                <h4 class="mb-3 text-light">
+                                            <span class="text-light mb-3 lh-1 d-block ">Feedback</span>                                                <h4 class="mb-3 text-light">
                                                     <span class="counter-value" data-target="{{ $resource_categories }}"></span>
                                                 </h4>
                                             </div>
