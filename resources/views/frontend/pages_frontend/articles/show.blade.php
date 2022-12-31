@@ -68,45 +68,43 @@
 					<div class="container">
 						<div class="wrapper">
 							<div class="comment-section">
-								<h2>2 comments</h2>
-								<div class="single-comment clearfix">
-									<img src="images/blog/20.jpg" alt="" class="float-left">
-									<div class="comment float-left">
-										<h6>Jannatul Fa.</h6>
-										<span>15 April, 2016 At 8:30am</span>
-										<p>One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in future. The same true we experience the emotional sensation of stress from our first.</p>
-										<button class="tran3s">Reply</button>
-									</div>
-								</div> <!-- /.single-comment -->
-								<div class="single-comment clearfix no-border">
-									<img src="images/blog/21.jpg" alt="" class="float-left">
-									<div class="comment float-left">
-										<h6>Jannatul Fa.</h6>
-										<span>15 April, 2016 At 8:30am</span>
-										<p>One touch of a red-hot stove is usually all we need to avoid that kind of discomfort in future</p>
-										<button class="tran3s">Reply</button>
-									</div>
-								</div> <!-- /.single-comment -->
+
+
+                                 <!-- post comment box here -->
+                                            <!-- diqus -->
+                                            <div id="disqus_thread"></div>
+                                            <script>
+                                                /**
+                                                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                                                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+                                                // var disqus_config = function () {
+                                                // this.page.url = {{ Request::url() }};  // Replace PAGE_URL with your page's canonical URL variable
+                                                // this.page.identifier = {{ $post->id }}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                                                // };
+
+                                                // WORKING DISUCSS
+
+                                                (function() { // DON'T EDIT BELOW THIS LINE
+                                                    var d = document,
+                                                        s = d.createElement('script');
+                                                    s.src = 'https://website-yk9vnplwgy.disqus.com/embed.js';
+                                                    s.setAttribute('data-timestamp', +new Date());
+                                                    (d.head || d.body).appendChild(s);
+                                                })
+                                                ();
+                                            </script>
+                                            <noscript>Please enable JavaScript to view the <a
+                                                    href="https://disqus.com/?ref_noscript">comments powered by
+                                                    Disqus.</a></noscript>
+
+                                                 {{-- end WORKING DISUCSS --}}
+
+                                            <!-- end of disqus -->
+
 							</div> <!-- /.comment-section -->
 
-							<div class="leave-comment">
-								<h2>Leave A Comment</h2>
-								<p>sing in to post your comment or singup if you dont have any account.</p>
-								<form action="#">
-									<div class="row">
-										<div class="col-sm-6">
-											<input type="text" placeholder="Name *">
-										</div>
-										<div class="col-sm-6">
-											<input type="email" placeholder="Email *">
-										</div>
-										<div class="col-xs-12">
-											<textarea placeholder="Your Comment"></textarea>
-										</div>
-									</div>
-									<button class="p-bg-color hvr-trim-two">Post COmment</button>
-								</form>
-							</div> <!-- /.leave-comment -->
+
 						</div> <!-- /.wrapper -->
 					</div> <!-- /.container -->
 				</div> <!-- /.comment-area -->

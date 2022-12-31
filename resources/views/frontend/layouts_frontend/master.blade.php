@@ -44,7 +44,7 @@
 			<!-- ===================================================
 				Loading Transition
 			==================================================== -->
-			<div id="loader-wrapper">
+			{{-- <div id="loader-wrapper">
 				<div id="loader">
 					<ul>
 						<li></li>
@@ -55,7 +55,7 @@
 						<li></li>
 					</ul>
 				</div>
-			</div>
+			</div> --}}
 
 
 
