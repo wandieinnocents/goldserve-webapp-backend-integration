@@ -6,11 +6,11 @@
 
 @section('content')
 
-	
-			<!-- 
+
+			<!--
 			=============================================
-				Theme Inner Banner 
-			============================================== 
+				Theme Inner Banner
+			==============================================
 			-->
 			<div class="inner-page-banner">
 				<div class="opacity">
@@ -25,10 +25,10 @@
 
 
 
-			<!-- 
+			<!--
 			=============================================
 				Contact Us
-			============================================== 
+			==============================================
 			-->
 			<div class="contact-us">
 				<div class="container">
@@ -74,7 +74,7 @@
 			        <div id="error">
 			           	<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
 			           	<div class="wrapper">
-			               	<p>Sorry!Something Went Wrong.</p>
+			               	<p>Sorry! Something Went Wrong.</p>
 			            </div>
 			        </div>
 			    </div> <!-- End of .alert_wrapper -->
@@ -85,5 +85,5 @@
 			<div id="google-map-area">
 				<div class="google-map" id="contact-google-map" data-map-lat="0.313903" data-map-lng="32.579711" data-map-title="Find Map" data-map-zoom="12"></div>
 	   		 </div>
-    
+
 @endsection

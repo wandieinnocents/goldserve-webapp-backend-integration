@@ -2,7 +2,7 @@
 				<div class="header-wrapper">
 					<div class="container">
 						<!-- Logo -->
-						<div class="logo float-left tran4s"><a href="/"><img src="assets/frontend/images/logo/logo02.png" alt="Logo"></a></div>
+						<div class="logo float-left tran4s"><a href="/"><img src="{{ asset('assets/frontend/images/logo/logo02.png') }}" alt="Logo"></a></div>
 
 						<!-- ============================ Theme Menu ========================= -->
 						<nav class="theme-main-menu float-right navbar" id="mega-menu-wrapper">
@@ -18,7 +18,7 @@
 						   <!-- Collect the nav links, forms, and other content for toggling -->
 						   <div class="collapse navbar-collapse" id="navbar-collapse-1">
 								<ul class="nav">
-									<li class="dropdown-holder menu-list active"><a href="index-2.html" class="tran3s">Home</a>
+									<li class="dropdown-holder menu-list active"><a href="/" class="tran3s">Home</a>
 										<!-- <ul class="sub-menu">
 											<li><a href="index.html">Home version one</a></li>
 											<li><a href="index-2.html">Home version Two</a></li>
@@ -26,10 +26,10 @@
 											<li><a href="index-video.html">Home video version</a></li>
 										</ul> -->
 									</li>
-									<li><a href="about-us.html">About Us</a></li>
+									<li><a href="/about">About Us</a></li>
 									<li class="dropdown-holder menu-list"><a href="#" class="tran3s">Services</a>
 										<ul class="sub-menu">
-											
+
 											<li class="dropdown-holder"><a href="blog-v3.html">Business Support Services</a>
 												<ul class="second-sub-menu">
 													<li><a href="facility_management.html">Facility Management</a></li>
@@ -52,13 +52,13 @@
 											<li><a href="team-v2.html">Team Version Two</a></li> -->
 										</ul>
 									</li>
-									
+
 								    <li><a href="service-details.html">Testimonials</a></li>
 									<li><a href="blogs.html">Blogs</a></li>
-										
+
 									<li><a href="training.html">Trainings</a></li>
-										
-									<li class="menu-list"><a href="contact.html" class="tran3s">Contact Us</a></li>
+
+									<li class="menu-list"><a href="/contact/create" class="tran3s">Contact Us</a></li>
 									<!-- <li class="login-button"><a href="#" class="tran3s" data-toggle="modal" data-target=".signUpModal">login</a></li> -->
 								</ul>
 						   </div><!-- /.navbar-collapse -->
