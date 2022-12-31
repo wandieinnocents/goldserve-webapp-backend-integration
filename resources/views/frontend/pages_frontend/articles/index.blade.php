@@ -98,11 +98,11 @@
 
                     {{-- CATEGORIES --}}
                     <div class="sidebar-box blog-categories">
-                        <h3>Tags</h3>
+                        <h3>Categories</h3>
                         <ul>
                             @foreach($post_categories_fetch as $post_category)
 
-                            <li><a href="#">{{ $post->post_category_r->post_category_name }} <span>(14)</span></a></li>
+                            <li><a href="#">{{ $post->post_category_r->post_category_name }}</a></li>
                             @endforeach
 
                         </ul>
