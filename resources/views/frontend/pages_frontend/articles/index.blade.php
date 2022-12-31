@@ -5,124 +5,101 @@
 @endsection
 
 @section('content')
-   
-   <div class="rs-breadcrumbs breadcrumbs-overlay">
-                <div class="breadcrumbs-img">
-                    <img src="assets/frontend/images/breadcrumbs/9.png" alt="Breadcrumbs Image">
-                </div>
-                <div class="breadcrumbs-text white-color">
-                    <h1 class="page-title">Blog</h1>
-                    <ul>
-                        <li>
-                            <a class="active" href="/">Home</a>
-                        </li>
-                        <li>Blog</li>
+    <!--
+       =============================================
+        Theme Inner Banner
+       ==============================================
+       -->
+    <div class="inner-page-banner">
+        <div class="opacity">
+            <h1>Our Blogs</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>/</li>
+                <li>News</li>
+            </ul>
+        </div> <!-- /.opacity -->
+    </div> <!-- /inner-page-banner -->
+
+
+
+    <!--
+       =============================================
+        Our Blog / Blog V3
+       ==============================================
+       -->
+    <div class="our-blog blog-v3 blog-with-sidebar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-8 col-xs-12">
+                    <div class="single-blog">
+                        <div class="image"><img src="assets/frontend/images/blog/01.jpg" alt=""></div>
+                        <div class="text">
+                            <h6>Admin</h6>
+                            <h5><a href="blog-details.html" class="tran3s">We Opening New Branch on Brooklyn</a></h5>
+                            <p>Their testimonial videos aren't production quality, but they get the message across, cover
+                                useful and relevant information which goes to show you don't need to invest thousands
+                                product.</p>
+                            <a href="blog-details.html" class="tran3s"><i class="flaticon-arrows"
+                                    aria-hidden="true"></i></a>
+                        </div>
+                    </div> <!-- /.single-blog -->
+
+                    <ul class="page-pagination">
+                        <li class="active"><a href="#" class="tran3s">1</a></li>
+                        <li><a href="#" class="tran3s">2</a></li>
+                        <li><a href="#" class="tran3s">3</a></li>
+                        <li><a href="#" class="tran3s">Next</a></li>
                     </ul>
-                </div>
-            </div>
-            <!-- Breadcrumbs End -->            
+                </div> <!-- /.col- -->
+                <!-- ======================== Sidebar ========================= -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 blog-sidebar">
+                    <div class="sidebar-box sidebar-search">
+                        <form action="#">
+                            <input type="text" placeholder="Search..">
+                            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                    </div> <!-- /.sidebar-search -->
+                    <div class="sidebar-box sidebar-recent-post">
+                        <h3>Latest Blogs</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Monitoring of Data For HSE Performance.</a>
+                                <span>12 Dec, 2022</span>
+                            </li>
+                            <li>
+                                <a href="#">Online PowerBI Training</a>
+                                <span>22 Sept, 2022</span>
+                            </li>
+                            <li>
+                                <a href="#">Monitoring Service standards ? There's a dashboard for that.</a>
+                                <span>23 May, 2022</span>
+                            </li>
+                        </ul>
+                    </div> <!-- /.sidebar-recent-post -->
+                    <div class="sidebar-box blog-categories">
+                        <h3>Tags</h3>
+                        <ul>
+                            <li><a href="#">Web Develoment <span>(14)</span></a></li>
+                            <li><a href="#">Graohic Design <span>(04)</span></a></li>
+                            <li><a href="#">Web Design <span>(12)</span></a></li>
+                            <li><a href="#">IOS/Android Development <span>(09)</span></a></li>
+                            <li><a href="#">Others <span>(05)</span></a></li>
+                        </ul>
+                    </div> <!-- /.blog-categories -->
 
-    		  <!-- Blog Section Start -->
-            <div class="rs-inner-blog orange-color pt-100 pb-100 md-pt-70 md-pb-70">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-12 order-last">
-                            <div class="widget-area">
-                                {{-- <div class="   search-widget mb-50">
-                                    <div class="search-wrap">
-                                        <input type="search" placeholder="Searching..." name="s" class="search-input" value="">
-                                        <button type="submit" value="Search"><i class=" flaticon-search"></i></button>
-                                    </div>
-                                </div> --}}
-                                {{-- RESCENT CATEGORIES --}}
-                                
-
-
-                                <div class="recent-posts mb-50">
-                                    <h3 class="widget-title">Recent Posts</h3>
-                                    <ul>
-                                    @foreach($post_categories_fetch as $post_category)
-                                        <li>
-                                        
-                                        <a class="clearfix" href="javascript::void()">
-                                        {{ $post_category->post_category_name }} 
-                                        
-                                        </li>
-                                         @endforeach
-                                        
-                                    </ul>
-                                </div>
-
-                                {{-- rescent posts --}}
-                                <div class="recent-posts mb-50">
-                                    <h3 class="widget-title">Recent Categories</h3>
-                                    <ul>
-                                    @foreach($posts as $rescent_post)
-                                        <li>
-                                        
-                                        <a class="clearfix" href="{{ route('articles.show',$post_category->id) }}">
-                                        {{ $rescent_post->post_title }} 
-                                        
-                                        </li>
-                                         @endforeach
-                                        
-                                    </ul>
-                                </div>
-                                 
-                               
-                            </div>
-                        </div>
-                        <div class="col-lg-8 pr-50">
-                            <div class="row">
-                            {{-- start news --}}
-                            @foreach($posts as $post)
-                                
-                            
-                                <div class="col-lg-12 mb-70">
-                                    <div class="blog-item">
-                                        <div class="blog-img">
-                                            <a href="{{ route('articles.show',$post->id) }}"><img src="{{ asset($post->post_photo) }}" alt=""></a>
-                                        </div>
-                                        <div class="blog-content">
-                                            <h3 class="blog-title"><a href="{{ route('articles.show',$post->id) }}">{{ $post->post_title }}</a></h3>
-                                            <div class="blog-meta">
-                                                <ul class="btm-cate">
-                                                    <li>
-                                                        <div class="blog-date">
-                                                            <i class="fa fa-calendar-check-o"></i> {{ $post->created_at }}                                                       
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="author">
-                                                            <i class="fa fa-user-o"></i> {{ $post->post_created_by }}  
-                                                        </div>
-                                                    </li>   
-                                                    <li>
-                                                        <div class="tag-line">
-                                                            <i class="fa fa-book"></i>
-                                                            <a href="#">{{ $post->post_category_r->post_category_name }}</a> 
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="blog-desc">   
-                                            {{ \Illuminate\Support\Str::limit($post->post_description , 250, $end='...') }}
-                                            
-                                          </div>
-                                            <div class="blog-button">
-                                                <a class="blog-btn" href="{{ route('articles.show',$post->id) }}">Continue Reading</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            @endforeach
-                            {{-- end news --}}
-                             
-                             
-                             
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-            </div>
+                    <div class="sidebar-keyword">
+                        <h3>Keyword</h3>
+                        <ul class="clearfix">
+                            <li><a href="#">Ideas</a></li>
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">design</a></li>
+                            <li><a href="#">animation</a></li>
+                            <li><a href="#">book</a></li>
+                        </ul>
+                    </div> <!-- /.sidebar-keyword -->
+                </div> <!-- /.blog-sidebar -->
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div> <!-- /.our-blog -->
 @endsection

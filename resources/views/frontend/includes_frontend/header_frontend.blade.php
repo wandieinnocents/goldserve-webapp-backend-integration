@@ -54,7 +54,7 @@
 									</li>
 
 								    <li><a href="service-details.html">Testimonials</a></li>
-									<li><a href="blogs.html">Blogs</a></li>
+									<li><a href="/articles">Blogs</a></li>
 
 									<li><a href="training.html">Trainings</a></li>
 
