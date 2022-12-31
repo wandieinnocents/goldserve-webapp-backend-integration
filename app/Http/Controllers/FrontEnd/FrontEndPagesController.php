@@ -7,8 +7,15 @@ use Illuminate\Http\Request;
 
 class FrontEndPagesController extends Controller
 {
-    
- 
+
+
+
+    // payments page default
+    public function trainings(){
+
+        return view("frontend.pages_frontend.trainings.index");
+    }
+
 
 
 }
