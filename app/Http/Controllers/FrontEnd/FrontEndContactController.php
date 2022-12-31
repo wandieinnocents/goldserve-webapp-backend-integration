@@ -15,7 +15,7 @@ class FrontEndContactController extends Controller
      */
     public function index()
     {
-        
+
     }
 
     /**
@@ -25,7 +25,7 @@ class FrontEndContactController extends Controller
      */
     public function create()
     {
-        return view('frontend.pages_frontend.contact.create'); 
+        return view('frontend.pages_frontend.contact.create');
 
     }
 
@@ -40,14 +40,14 @@ class FrontEndContactController extends Controller
         $contact = new FrontEndContact();
         $contact->name         = $request->name;
         $contact->email        = $request->email;
-        $contact->phone        = $request->phone;
-        $contact->subject      = $request->subject;
+        // $contact->phone        = $request->phone;
+        // $contact->subject      = $request->subject;
         $contact->description  = $request->description;
 
         // send copy to email
-       
+
         // \Mail::to('wandieinnocent2@gmail.com')->send(new \App\Mail\SupportMail($contact));
-       
+
         // save to DB
         $contact->save();
         // dd($contact);

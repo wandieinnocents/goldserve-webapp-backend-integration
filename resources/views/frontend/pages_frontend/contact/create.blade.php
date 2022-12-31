@@ -35,9 +35,14 @@
 					<div class="row">
 						<div class="col-lg-7 col-md-6 col-xs-12">
 							<div class="contact-us-form">
-								<form action="https://html.creativegigstf.com/gullu/inc/sendemail.php" class="form-validation" autocomplete="off">
-									<input type="email" placeholder="Email Address*" name="email">
-									<input type="text" placeholder="Subject*" name="sub">
+								<form action="" class="form-validation" autocomplete="off">
+
+
+                                    <input type="text" placeholder="Full Name" name="name">
+                                    <input type="text" placeholder="Subject*" name="subject">
+                                    <input type="text" placeholder="Phone" name="phone">
+                                    <input type="email" placeholder="Email Address*" name="email">
+
 									<textarea placeholder="Your Message*" name="message"></textarea>
 									<button class="p-bg-color hvr-trim-two">SEND MESSAGE</button>
 								</form>
