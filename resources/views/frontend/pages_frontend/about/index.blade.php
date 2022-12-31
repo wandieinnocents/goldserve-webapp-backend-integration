@@ -6,183 +6,243 @@
 
 @section('content')
    
-   <!-- Breadcrumbs Start -->
-			<div class="rs-breadcrumbs breadcrumbs-overlay">
-					<div class="breadcrumbs-img">
-							<img src="assets/frontend/images/breadcrumbs/mayaimg.png" alt="Breadcrumbs Image">
-					</div>
-					<div class="breadcrumbs-text white-color">
-							<h1 class="page-title">About Us</h1>
-							<ul>
-								<li>
-									<a class="active" href="index-2.html">Home</a>
-								</li>
-								<li>About Us</li>
-							</ul>
-					</div>
-			</div>
-			<!-- Breadcrumbs End -->
+   
+			
+			<div class="inner-page-banner">
+				<div class="opacity">
+					<h1>More About Us!</h1>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>/</li>
+						<li>About us</li>
+					</ul>
+				</div> <!-- /.opacity -->
+			</div> <!-- /inner-page-banner -->
 
-			<!-- About Section Start -->
-			<div id="rs-about" class="rs-about style1 pt-100 pb-100 md-pt-70 md-pb-70">
+
+
+			<!-- 
+			=============================================
+				About Text
+			============================================== 
+			-->
+			<div class="about-text">
 				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-6 order-last padding-0 md-pl-15 md-pr-15 md-mb-30">
-							<div class="img-part">
-								<img class="" src="assets/frontend/images/about/about.png" alt="About Image">
-								
-								<!-- <div class="bold-text mb-22">Director - Dr. Grace Stephen Sseruyange Dental Technologist(USA), Dentist(Uganda)</div> -->
-							</div>
-						</div>
-						<div class="col-lg-6 pr-70 md-pr-15">
-							<div class="sec-title">
-								<div class="sub-title orange">About IPI</div>
-								<h2 class="title mb-17">The International Paramedical Institute</h2>
-								<div class="bold-text mb-22">IPI is a science institution,  training dental professionals, clinical officers and many other health care courses,</div>
-								<div class="desc">It is founded by Bunawona Uganda Community Outreach (BUCO) which is determined to help, treat and prevent oral conditions and many other health care problems in Uganda. It has a modern and spacious dental clinic, medical laboratories, dormitories, Medical equipment, classrooms and well stalked library and computer laboratory.</div>
-								<div class="desc">We target Ugandan students who have attained the UCE and UACE certificates plus International students from outside Uganda especially Tanzania, Kenya, South Sudan, Democratic Republic of Congo, Somalia, Rwanda and Burundi plus other countries.Young aspirants study in a stimulating environment of independent thinking and innovation in various disciplines of Health Care. </div>
-							</div>
-						</div>
+					<div class="title">
+						<h6>WELCOME TO GOLDSERVE</h6>
+						<h2>More About Us!
+						</h2>
 					</div>
-				</div>
-			</div>
-			<!-- About Section End -->
+					<img src="images/inner-page/1.jpg" alt="">
+					<div class="about-tab-wrapper clearfix">
+						<ul class="nav nav-tabs float-left">
+							<li class="active"><a data-toggle="tab" href="#history">WHO WE ARE</a></li>
+							<li><a data-toggle="tab" href="#vision">OUR BACKGROUND</a></li>
+							
+						</ul>
+						<div class="tab-content float-left">
+							<div id="history" class="tab-pane fade in active">
+								<img src="images/inner-page/pic-1.jpg" alt="">
+						    	<p>We are a boutique operational services company providing niche products and services to companies in Uganda and East African region primarily serving the Oil and Gas, Construction, and Manufacturing sectors. Founded as Gold Leaf Holdings Ltd in 2005, GoldServe is the trading name for which we are known.
+								<br><br>In January 2018 we adopted the trading name GoldServe and have since gone on to serve a number of companies both large and small in Business Support Services, Training Services, General Supplies and Works, and Technical Manpower Services. From our base in Uganda, we serve clients local and regional, with the backing of supply contacts in Africa, Asia, and Europe.</p>
+						    	
+							</div> <!-- /#history -->
+						  	<div id="vision" class="tab-pane fade">
+								<img src="images/inner-page/pic-2.jpg" alt="">
+						    	<p>Our key staff have been trained internationally and worked for some of the leading Global firms and thus bring world class standards and approaches to GoldServe.
+									As a company founded by Africans, we are committed to the development of Africa while keen to engage with international firms with similar ethical inclinations as far as compliance to local & national regulations are concerned. Ours is a vision of Africa that excels through entrepreneurship and global best practice standards. GoldServe places great importance on QHSE matters. We promote a safety first culture that focusses on simplicity of safety related issues. Our policy seeks to: - Prevent Accidents - Promote Safe workplaces for our staff and contractors - Follow international standards
+									
+									</p>
+						  	</div> <!-- /#vision -->
+						  	
+						</div>
+					</div> <!-- /.about-tab-wrapper -->
+				</div> <!-- /.container -->
+			</div> <!-- /.about-text -->
 
-			<!-- CTA Section Start -->
-			<div class="rs-cta style2">
-				<div class="partition-bg-wrap inner-page">
-					<div class="container">
-						<div class="row y-bottom">
-							<div class="col-lg-6 pb-50 md-pt-70 md-pb-70">
-								
-							</div>
-							<div class="col-lg-6 pl-62 pt-134 pb-150 md-pt-50 md-pb-50 md-pl-15">
-								<div class="sec-title mb-40 md-mb-20">
-										<h2 class="title mb-16">VISION</h2>
-										<div class="desc">To be a leading model international paramedical institution that produces health professionals capable of self reliance and job creation worldwide.</div>
-								        <h2 class="title mb-16">MISSION</h2>
-										<div class="desc">To enable the future and competence of our professional graduates produced through a carefully analyzed national and international curriculum to acquire knowledge and practical skills fit for global job market.</div>
+
+
+			<!-- 
+			=============================================
+				Theme Counter
+			============================================== 
+			-->
+			<!-- <div class="theme-counter no-border fix">
+				<div class="container">
+					<div class="row">
+		        		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+		        			<div class="single-box">
+		        				<h2 class="number"><span class="timer" data-from="0" data-to="2730" data-speed="1000" data-refresh-interval="5">0</span>+</h2>
+		        				<p>Completed Projects</p>
+		        			</div> 
+		        		</div>
+		        		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+		        			<div class="single-box">
+		        				<h2 class="number"><span class="timer" data-from="0" data-to="39" data-speed="1000" data-refresh-interval="5">0</span></h2>
+		        				<p>Availble Country</p>
+		        			</div> 
+		        		</div>
+		        		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+		        			<div class="single-box">
+		        				<h2 class="number"><span class="timer" data-from="0" data-to="125" data-speed="1000" data-refresh-interval="5">0</span>M</h2>
+		        				<p>User Worldwide</p>
+		        			</div> 
+		        		</div>
+		        		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+		        			<div class="single-box border-fix">
+		        				<h2 class="number"><span class="timer" data-from="0" data-to="12" data-speed="1000" data-refresh-interval="5">0</span></h2>
+		        				<p>Award Winner</p>
+		        			</div>
+		        		</div>
+		        	</div> 
+				</div> 
+			</div>  -->
+			
+
+
+			<!-- 
+			=============================================
+				Testimonial
+			============================================== 
+			-->
+			<!-- <div class="testimonial-section bg-image">
+				<div class="container">
+					<div class="main-container col-md-6 col-md-offset-6">
+						<div class="theme-title">
+							<h6>Testimonials</h6>
+							<h2>Check what’s our client <br>Say about us</h2>
+						</div> 
+						<div class="testimonial-slider">
+							<div class="item">
+								<div class="wrapper">
+									<p>Their testimonial videos aren't production quality, but they get the message across, cover useful &amp; relevant information which goes to show you don't need to invest thousands in production get some testimonial videos up with quality. </p>
+									<div class="name clearfix">
+										<img src="images/home/3.jpg" alt="">
+										<h5>Rashed Kabir</h5>
+										<span>Gazipur</span>
 									</div>
-								<div class="btn-part">
-										<a class="readon2 blue" href="#">Apply Now</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- CTA Section End -->
+								</div> 
+							</div> 
+							<div class="item">
+								<div class="wrapper">
+									<p>Their testimonial videos aren't production quality, but they get the message across, cover useful &amp; relevant information which goes to show you don't need to invest thousands in production get some testimonial videos up with quality. </p>
+									<div class="name clearfix">
+										<img src="images/home/4.jpg" alt="">
+										<h5>Zubayer Hasan</h5>
+										<span>Uttara</span>
+									</div>
+								</div> 
+							</div> 
+						</div> 
+					</div> 
+				</div> 
+			</div> 
+			 -->
 
-			<!-- Counter Section Start -->
-			<!-- <div id="rs-counter" class="rs-counter style2-about pt-100 md-pt-70">
-				<div class="container">
-					<div class="row couter-area">
-						<div class="col-md-4 sm-mb-30">
-							<div class="counter-item text-center">
-								<div class="counter-bg">
-									<img src="assets/images/counter/bg1.png" alt="Counter Image">
-								</div>
-								<div class="counter-text">
-									<h2 class="rs-count kplus">2</h2>
-									<h4 class="title mb-0">Students</h4>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 sm-mb-30">
-							<div class="counter-item text-center">
-								<div class="counter-bg">
-									<img src="assets/images/counter/bg2.png" alt="Counter Image">
-								</div>
-								<div class="counter-text">
-									<h2 class="rs-count">3.50</h2>
-									<h4 class="title mb-0">Average CGPA</h4>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="counter-item text-center">
-								<div class="counter-bg">
-									<img src="assets/images/counter/bg3.png" alt="Counter Image">
-								</div>
-								<div class="counter-text">
-									<h2 class="rs-count percent">95</h2>
-									<h4 class="title mb-0">Graduates</h4>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
-			<!-- Counter Section End -->
 
-			<!-- About Section Start -->
-			<div class="rs-about style1 pt-100 pb-100 md-pt-70 md-pb-70">
+			<!-- 
+			=============================================
+				Our Team Style One 
+			============================================== 
+			-->
+			<!-- <div class="our-team-styleOne">
 				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-6 padding-0 md-pl-15 md-pr-15 md-mb-30">
-							<div class="img-part">
-								<img class="" src="assets/frontend/images/about/history.png" alt="About Image">
-							</div>
-                            <ul class="nav nav-tabs histort-part" id="myTab" role="tablist">
-                                <li class="nav-item tab-btns single-history">
-                                    <a class="nav-link tab-btn active" id="about-history-tab" data-toggle="tab" href="#about-history" role="tab" aria-controls="about-history" aria-selected="true"><span class="icon-part"><i class="flaticon-analysis"></i></span>Objective</a>
-                                </li>
-                                <li class="nav-item tab-btns single-history">
-                                    <a class="nav-link tab-btn" id="about-mission-tab" data-toggle="tab" href="#about-mission" role="tab" aria-controls="about-mission" aria-selected="false"><span class="icon-part"><i class="flaticon-flower"></i></span>Certified by M.E.S</a>
-                                </li>
-                                <li class="nav-item tab-btns single-history last-item">
-                                    <a class="nav-link tab-btn" id="about-admin-tab" data-toggle="tab" href="#about-admin" role="tab" aria-controls="about-admin" aria-selected="false"><span class="icon-part"><i class="flaticon-analysis"></i></span>Administration</a>
-                                </li>
-                            </ul>
+					<div class="title">
+						<h2>Our team member will ready <br>for your service</h2>
+						<a href="team-v1.html" class="tran3s">See all</a>
+					</div> 
+					<div class="row">
+						<div class="col-md-4 col-xs-6">
+							<div class="single-team-member">
+								<div class="image">
+									<img src="images/team/1.jpg" alt="">
+									<div class="opacity tran3s">
+										<ul class="tran3s">
+											<li><a href="#" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div> 
+								<h6>Rashed Kabir</h6>
+								<p>CO-Founder &amp; Designer</p>
+							</div> 
+						</div> 
+						<div class="col-md-4 col-xs-6">
+							<div class="single-team-member">
+								<div class="image">
+									<img src="images/team/2.jpg" alt="">
+									<div class="opacity tran3s">
+										<ul class="tran3s">
+											<li><a href="#" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div> 
+								<h6>Mahfuz Riad</h6>
+								<p>CO-Founder &amp; Designer</p>
+							</div> 
+						</div> 
+						<div class="col-md-4 col-xs-6 hidden-sm">
+							<div class="single-team-member">
+								<div class="image">
+									<img src="images/team/3.jpg" alt="">
+									<div class="opacity tran3s">
+										<ul class="tran3s">
+											<li><a href="#" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="tran3s"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div> 
+								<h6>Foqrul Islam</h6>
+								<p>CO-Founder &amp; Designer</p>
+							</div> 
+						</div> 
+					</div> 
+				</div> 
+			</div>  -->
+
+
+			<!-- 
+			=============================================
+				Trusted Client
+			============================================== 
+			-->
+			<!-- <div class="trusted-client">
+				<div class="container">
+					<div class="title">
+						<h2>Our trusted client</h2>
+						<p>We have show that some of our best partners ho all beside us</p>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-xs-6">
+							<div class="client-img"><img src="images/logo/p-5.png" alt=""></div>
 						</div>
-						<div class="offset-lg-1"></div>
-						<div class="col-lg-5">
-							<div class="tab-content tabs-content" id="myTabContent">
-                                <div class="tab-pane tab fade show active" id="about-history" role="tabpanel" aria-labelledby="about-history-tab">
-                                    <div class="sec-title mb-25">
-                                        <h2 class="title">The Main Objective Of IPI</h2>
-                                        <div class="desc"><ol>
-                                            <li>To ensure provision of high balanced quality health educational services for future self-reliance of our graduates.</li>
-                                            <li>To enable the development of areas in the vicinity of the institute through self-help projects that shall be attached to the paramedical institution.</li>
-                                            <li>To provide quality educational services through health awareness for better livelihood of the graduates that shall enroll with the institute.</li>
-                                            <li>To match with both national and international health standards through provision of local and international curriculum to students at affordable school fees rates.</li>
-                                            <li>To liaise with both national and international NGOs, CBO and other faith based organizations in provision of best health educational services and practices through lobbying and partnerships.</li>
-                                            <li>To engage in qualitative and quantitative research for production of highly competent academic and science oriented human resources. </li>
-                                        </ol></div>
-                                    </div>
-                                    <!-- <div class="tab-img"> -->
-                                        <!-- <img class="" src="assets/images/about/tab1.jpg" alt="Tab Image"> -->
-                                    <!-- </div> -->
-                                </div>
-                                <div class="tab-pane fade" id="about-mission" role="tabpanel" aria-labelledby="about-mission-tab">
-                                    <div class="sec-title mb-25">
-                                        <h2 class="title">Certified by Ministry of Education & Sports</h2>
-                                        <div class="desc">The Registrar Allied health professionals council with his inspection team and ministry of education  visited the school twice and recommendations were made to be good and given a go ahead to teach students. The inspection team was led by Assistant Commissioner Mr. Mugerwa and chairman Allied Health professional’s council Mr. Mpima and Bruhan, Kabanda on technical team, support staff and other members.</div>
-                                        <div class="desc">The school has a team of experienced teachers like Mr. Acidiri William former principal Mulago dental school, Mr Onyango – Principal public health dentistry and Tutor oral surgery,  Mr. Mutyaba Joseph – Dentist, Mr. Sseruyange Stephen Grace Bunawona- Director IPI Maya</div>
-                                    </div>
-                                    <!-- <div class="tab-img">
-                                        <img class="" src="assets/images/about/tab2.jpg" alt="Tab Image">
-                                    </div> -->
-                                </div>
-                                <div class="tab-pane fade" id="about-admin" role="tabpanel" aria-labelledby="about-admin-tab">
-                                    <div class="sec-title mb-25">
-                                        <h2 class="title">IPI Administration</h2>
-                                        <div class="desc">Our Administration Team consists of both techinal and not-techical staff in regards to medical related courses, competent to accomplish duties which are the foundation of the success of IPI</div>
-                                    </div>
-                                    <div class="tab-img">
-                                        <img class="" src="assets/frontend/images/about/tab3.jpg" alt="Tab Image">
-                                    </div>
-                                </div>
-                            </div>
+						<div class="col-md-4 col-xs-6">
+							<div class="client-img"><img src="images/logo/p-6.png" alt=""></div>
+						</div>
+						<div class="col-md-4 col-xs-6">
+							<div class="client-img"><img src="images/logo/p-7.png" alt=""></div>
+						</div>
+						<div class="col-md-4 col-xs-6">
+							<div class="client-img"><img src="images/logo/p-8.png" alt=""></div>
+						</div>
+						<div class="col-md-4 col-xs-6">
+							<div class="client-img"><img src="images/logo/p-9.png" alt=""></div>
+						</div>
+						<div class="col-md-4 col-xs-6">
+							<div class="client-img"><img src="images/logo/p-10.png" alt=""></div>
 						</div>
 					</div>
-                    <!-- Intro Info Tabs-->
-                    <div class="intro-info-tabs">
-                        
-                    </div>
-				</div>
-			</div>
-			<!-- About Section End -->          
+				</div> 
+			</div>  -->
+
+
 
 
 @endsection
