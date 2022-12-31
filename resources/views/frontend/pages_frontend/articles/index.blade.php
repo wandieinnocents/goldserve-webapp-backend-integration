@@ -51,10 +51,8 @@
 
                         <div class="text">
                             <h6>Admin</h6>
-                            <h5><a href="blog-details.html" class="tran3s">We Opening New Branch on Brooklyn</a></h5>
-                            <p>Their testimonial videos aren't production quality, but they get the message across, cover
-                                useful and relevant information which goes to show you don't need to invest thousands
-                                product.</p>
+                            <h5><a href="blog-details.html" class="tran3s">{{ $post->post_title }}</a></h5>
+                            <p>{{ $post->post_description }}</p>
                             <a href="blog-details.html" class="tran3s"><i class="flaticon-arrows"
                                     aria-hidden="true"></i></a>
                         </div>
