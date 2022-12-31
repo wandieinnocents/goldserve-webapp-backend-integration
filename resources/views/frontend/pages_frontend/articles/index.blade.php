@@ -32,8 +32,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 col-md-8 col-xs-12">
+
+                    {{-- BLOG --}}
+
+                    @foreach($posts as $post)
+
+                    {{-- Photo --}}
+
+                    @if (($post->post_photo))
                     <div class="single-blog">
-                        <div class="image"><img src="assets/frontend/images/blog/01.jpg" alt=""></div>
+                        <div class="image">
+                            <img src="{{ asset($post->post_photo) }}" alt="">
+                        </div>
+                        @else
+                        <p class="text-danger">No Photo</p>
+                    @endif
+
+
                         <div class="text">
                             <h6>Admin</h6>
                             <h5><a href="blog-details.html" class="tran3s">We Opening New Branch on Brooklyn</a></h5>
@@ -43,7 +58,12 @@
                             <a href="blog-details.html" class="tran3s"><i class="flaticon-arrows"
                                     aria-hidden="true"></i></a>
                         </div>
-                    </div> <!-- /.single-blog -->
+                    </div>
+
+                    @endforeach
+
+
+                    {{-- PAGINATION --}}
 
                     <ul class="page-pagination">
                         <li class="active"><a href="#" class="tran3s">1</a></li>
@@ -60,6 +80,9 @@
                             <button><i class="fa fa-search" aria-hidden="true"></i></button>
                         </form>
                     </div> <!-- /.sidebar-search -->
+
+
+
                     <div class="sidebar-box sidebar-recent-post">
                         <h3>Latest Blogs</h3>
                         <ul>
@@ -76,7 +99,10 @@
                                 <span>23 May, 2022</span>
                             </li>
                         </ul>
-                    </div> <!-- /.sidebar-recent-post -->
+                    </div>
+
+
+                    {{-- CATEGORIES --}}
                     <div class="sidebar-box blog-categories">
                         <h3>Tags</h3>
                         <ul>
