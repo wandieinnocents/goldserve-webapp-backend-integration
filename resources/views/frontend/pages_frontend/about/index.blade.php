@@ -33,7 +33,7 @@
 						<h2>More About Us!
 						</h2>
 					</div>
-					<img src="images/inner-page/1.jpg" alt="">
+					<img src="assets/frontend/images/inner-page/1.jpg" alt="">
 					<div class="about-tab-wrapper clearfix">
 						<ul class="nav nav-tabs float-left">
 							<li class="active"><a data-toggle="tab" href="#history">WHO WE ARE</a></li>
@@ -42,13 +42,13 @@
 						</ul>
 						<div class="tab-content float-left">
 							<div id="history" class="tab-pane fade in active">
-								<img src="images/inner-page/pic-1.jpg" alt="">
+								<img src="assets/frontend/images/inner-page/pic-1.jpg" alt="">
 						    	<p>We are a boutique operational services company providing niche products and services to companies in Uganda and East African region primarily serving the Oil and Gas, Construction, and Manufacturing sectors. Founded as Gold Leaf Holdings Ltd in 2005, GoldServe is the trading name for which we are known.
 								<br><br>In January 2018 we adopted the trading name GoldServe and have since gone on to serve a number of companies both large and small in Business Support Services, Training Services, General Supplies and Works, and Technical Manpower Services. From our base in Uganda, we serve clients local and regional, with the backing of supply contacts in Africa, Asia, and Europe.</p>
 						    	
 							</div> <!-- /#history -->
 						  	<div id="vision" class="tab-pane fade">
-								<img src="images/inner-page/pic-2.jpg" alt="">
+								<img src="assets/frontend/images/inner-page/pic-2.jpg" alt="">
 						    	<p>Our key staff have been trained internationally and worked for some of the leading Global firms and thus bring world class standards and approaches to GoldServe.
 									As a company founded by Africans, we are committed to the development of Africa while keen to engage with international firms with similar ethical inclinations as far as compliance to local & national regulations are concerned. Ours is a vision of Africa that excels through entrepreneurship and global best practice standards. GoldServe places great importance on QHSE matters. We promote a safety first culture that focusses on simplicity of safety related issues. Our policy seeks to: - Prevent Accidents - Promote Safe workplaces for our staff and contractors - Follow international standards
 									
