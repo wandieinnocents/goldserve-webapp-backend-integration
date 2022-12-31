@@ -87,7 +87,7 @@
                         <ul>
                             @foreach($posts as $post)
                             <li>
-                                <a href="#">{{ $post->post_title }}</a>
+                                <a href="{{ route('articles.show',$post->id) }}">{{ $post->post_title }}</a>
                                 <span>{{ $post->created_at }}</span>
                             </li>
                             @endforeach
@@ -99,6 +99,7 @@
                     {{-- CATEGORIES --}}
                     <div class="sidebar-box blog-categories">
                         <h3>Categories</h3>
+                        <hr>
                         <ul>
                             @foreach($post_categories_fetch as $post_category)
 
