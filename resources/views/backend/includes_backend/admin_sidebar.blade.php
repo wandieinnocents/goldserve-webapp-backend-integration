@@ -95,7 +95,7 @@
                     </ul>
                 </li>
                 {{-- Video gallery --}}
-                <li>
+                <!-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-people-carry"></i>
                         <span data-key="t-apps">Videos</span>
@@ -112,7 +112,7 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 <!-- Services -->
                 {{-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
@@ -143,7 +143,7 @@
                     </ul>
                 </li> --}}
                 <!-- Projects -->
-                <li>
+                <!-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-university"></i>
                         <span data-key="t-apps">Projects</span>
@@ -170,28 +170,10 @@
                             </a>
                         </li>
                     </ul>
-                </li>
-                {{-- courses --}}
-                 <!-- <li>
-                    <a href="javascript: void(0);" class="has-arrow">
-                        <i class="fas fa-university"></i>
-                        <span data-key="t-apps">Courses</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li>
-                            <a href="/courses/create">
-                                <span data-key="t-chat">Add Course</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/courses">
-                                <span data-key="t-chat">View Course</span>
-                            </a>
-                        </li>
-                    </ul>
                 </li> -->
+              
                 {{-- events --}}
-                 <li>
+                 <!-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-university"></i>
                         <span data-key="t-apps">Events</span>
@@ -208,7 +190,7 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 {{-- Posts --}}
                 <!-- Posts -->
                 <li>
@@ -244,7 +226,7 @@
                     </ul>
                 </li>
                 {{-- Team --}}
-                <li>
+                <!-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-university"></i>
                         <span data-key="t-apps">Staff</span>
@@ -261,9 +243,9 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 {{-- Faq --}}
-                <li>
+                <!-- <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i class="fas fa-university"></i>
                         <span data-key="t-apps">Faq's</span>
@@ -280,7 +262,7 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 <hr>
                 @guest
                     <!-- Login -->
