@@ -34,6 +34,7 @@
                             <h6>{{ $post->post_title }}</h6>
                             <h6 style="margin-top: 20px;">By: {{ $post->post_created_by }} | {{ $post->post_category_r->post_category_name }}</h6>
 
+                            <hr>
                             @if (($post->post_photo))
                             <div class="single-blog">
                                 <div class="image">

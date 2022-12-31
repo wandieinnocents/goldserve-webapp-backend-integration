@@ -82,20 +82,16 @@
 
 
                     <div class="sidebar-box sidebar-recent-post">
+                        {{-- LATEST BLOGS --}}
                         <h3>Latest Blogs</h3>
                         <ul>
+                            @foreach($posts as $post)
                             <li>
-                                <a href="#">Monitoring of Data For HSE Performance.</a>
-                                <span>12 Dec, 2022</span>
+                                <a href="#">{{ $post->post_title }}</a>
+                                <span>{{ $post->created_at }}</span>
                             </li>
-                            <li>
-                                <a href="#">Online PowerBI Training</a>
-                                <span>22 Sept, 2022</span>
-                            </li>
-                            <li>
-                                <a href="#">Monitoring Service standards ? There's a dashboard for that.</a>
-                                <span>23 May, 2022</span>
-                            </li>
+                            @endforeach
+
                         </ul>
                     </div>
 
@@ -104,24 +100,15 @@
                     <div class="sidebar-box blog-categories">
                         <h3>Tags</h3>
                         <ul>
-                            <li><a href="#">Web Develoment <span>(14)</span></a></li>
-                            <li><a href="#">Graohic Design <span>(04)</span></a></li>
-                            <li><a href="#">Web Design <span>(12)</span></a></li>
-                            <li><a href="#">IOS/Android Development <span>(09)</span></a></li>
-                            <li><a href="#">Others <span>(05)</span></a></li>
+                            @foreach($post_categories_fetch as $post_category)
+
+                            <li><a href="#">{{ $post->post_category_r->post_category_name }} <span>(14)</span></a></li>
+                            @endforeach
+
                         </ul>
                     </div> <!-- /.blog-categories -->
 
-                    <div class="sidebar-keyword">
-                        <h3>Keyword</h3>
-                        <ul class="clearfix">
-                            <li><a href="#">Ideas</a></li>
-                            <li><a href="#">Education</a></li>
-                            <li><a href="#">design</a></li>
-                            <li><a href="#">animation</a></li>
-                            <li><a href="#">book</a></li>
-                        </ul>
-                    </div> <!-- /.sidebar-keyword -->
+
                 </div> <!-- /.blog-sidebar -->
             </div> <!-- /.row -->
         </div> <!-- /.container -->
