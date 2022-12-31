@@ -50,7 +50,7 @@
 
 
                         <div class="text">
-                            <h6>Posted By: {{ $post->post_created_by }}  | Category : {{ $post->post_category_r->post_category_name }}</h6>
+                            <h6><span class="badge badge-primary">Posted By:</span> {{ $post->post_created_by }}  | <span class="badge badge-primary"> Category : </span> {{ $post->post_category_r->post_category_name }}</h6>
                             <h5><a href="{{ route('articles.show',$post->id) }}" class="tran3s">{{ $post->post_title }}</a></h5>
                             <p>{{ $post->post_description }}</p>
                             <a href="{{ route('articles.show',$post->id) }}" class="tran3s"><i class="flaticon-arrows"

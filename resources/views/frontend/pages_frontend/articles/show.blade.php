@@ -32,7 +32,8 @@
 						<div class="blog-main-post">
 
                             <h6>{{ $post->post_title }}</h6>
-                            <h6 style="margin-top: 20px;">By: {{ $post->post_created_by }} | {{ $post->post_category_r->post_category_name }}</h6>
+                            <h6 style="margin-top: 20px;"><span class="badge badge-primary">Posted By:</span> {{ $post->post_created_by }}  | <span class="badge badge-primary"> Category : </span> {{ $post->post_category_r->post_category_name }}</h6>
+
 
                             <hr>
                             @if (($post->post_photo))
