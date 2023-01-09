@@ -15,7 +15,7 @@ Trainings
 				<div class="opacity">
 					<h1>Trainings Services</h1>
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="/">Home</a></li>
 						<li>/</li>
 						<li>Trainings</li>
 					</ul>

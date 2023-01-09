@@ -54,6 +54,21 @@ Route::resource('/articles', 'App\Http\Controllers\FrontEnd\FrontEndPostControll
 
 // trainings
 Route::get('/trainings', 'App\Http\Controllers\FrontEnd\FrontEndPagesController@trainings');
+// trainings
+Route::get('/facility_management', 'App\Http\Controllers\FrontEnd\FrontEndPagesController@facility_management');
+// trainings
+Route::get('/expat_orientaion', 'App\Http\Controllers\FrontEnd\FrontEndPagesController@expat_orientaion');
+// trainings
+Route::get('/consulting_services_management', 'App\Http\Controllers\FrontEnd\FrontEndPagesController@consulting_services_management');
+// trainings
+Route::get('/qhse_services', 'App\Http\Controllers\FrontEnd\FrontEndPagesController@qhse_services');
+// trainings
+Route::get('/niche_supplies', 'App\Http\Controllers\FrontEnd\FrontEndPagesController@niche_supplies');
+// trainings
+Route::get('/procurement_buy_house', 'App\Http\Controllers\FrontEnd\FrontEndPagesController@procurement_buy_house');
+// trainings
+Route::get('/bespoke_workspace_adaptations', 'App\Http\Controllers\FrontEnd\FrontEndPagesController@bespoke_workspace_adaptations');
+
 
 //bookings
 Route::resource('/book', 'App\Http\Controllers\FrontEnd\FrontEndBookingController');
