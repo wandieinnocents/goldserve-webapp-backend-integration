@@ -61,6 +61,13 @@ class FrontEndPagesController extends Controller
 
         return view("frontend.pages_frontend.bespoke_workspace_adaptations.index");
     }
+
+    //techncal_mpower
+    public function techncal_mpower(){
+
+        return view("frontend.pages_frontend.techncal_mpower.index");
+    }
+   
    
 
 }

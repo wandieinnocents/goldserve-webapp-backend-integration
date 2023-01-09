@@ -56,6 +56,7 @@ Route::resource('/articles', 'App\Http\Controllers\FrontEnd\FrontEndPostControll
 Route::get('/trainings', 'App\Http\Controllers\FrontEnd\FrontEndPagesController@trainings');
 // trainings
 Route::get('/facility_management', 'App\Http\Controllers\FrontEnd\FrontEndPagesController@facility_management');
+Route::get('/techncal_mpower', 'App\Http\Controllers\FrontEnd\FrontEndPagesController@techncal_mpower');
 // trainings
 Route::get('/expat_orientaion', 'App\Http\Controllers\FrontEnd\FrontEndPagesController@expat_orientaion');
 // trainings
