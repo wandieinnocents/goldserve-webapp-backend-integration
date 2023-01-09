@@ -16,7 +16,7 @@
 				<div class="opacity">
 					<h1>Contact US</h1>
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="/">Home</a></li>
 						<li>/</li>
 						<li>Contact</li>
 					</ul>
