@@ -27,24 +27,24 @@
 										</ul> -->
 									</li>
 									<li><a href="/about">About Us</a></li>
-									<li class="dropdown-holder menu-list"><a href="#" class="tran3s">Services</a>
+									<li class="dropdown-holder menu-list"><a href="javascript::void(0)" class="tran3s">Services</a>
 										<ul class="sub-menu">
-
-											<li class="dropdown-holder"><a href="blog-v3.html">Business Support Services</a>
+											
+											<li class="dropdown-holder"><a href="javascript::void(0)">Business Support Services</a>
 												<ul class="second-sub-menu">
 													<li><a href="facility_management.html">Facility Management</a></li>
 													<li><a href="expat_orientaion.html">Expat Services</a></li>
-													<li><a href="">Vendor Management</a></li>
+													<!-- <li><a href="">Vendor Management</a></li> -->
 													<li><a href="consulting_services.html">Consulting Services Management</a></li>
 													<li><a href="qshe_services.html">QSHE Services</a></li>
 												</ul>
 											</li>
 											<li><a href="techncal_mpower.html">Techninal ManPower Services</a></li>
-											<li class="dropdown-holder"><a href="shop.html">General Supplies and Works</a>
+											<li class="dropdown-holder"><a href="javascript::void(0)">General Supplies and Works</a>
 												<ul class="second-sub-menu">
 													<li><a href="niche_supplies.html">Niche Supplies</a></li>
 													<li><a href="procurement.html">Procurement Buy House </a></li>
-													<li><a href="works.html">Works</a></li>
+													<li><a href="works.html">Bespoke Workspace Adaptations</a></li>
 												</ul>
 											</li>
 											<!-- <li><a href="about-us.html">About us</a></li>
