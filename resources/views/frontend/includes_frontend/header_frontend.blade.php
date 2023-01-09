@@ -39,7 +39,7 @@
 													<li><a href="/qhse_services">QSHE Services</a></li>
 												</ul>
 											</li>
-											<li><a href="techncal_mpower.html">Techninal ManPower Services</a></li>
+											<li><a href="/techncal_mpower">Techninal ManPower Services</a></li>
 											<li class="dropdown-holder"><a href="javascript::void(0)">General Supplies and Works</a>
 												<ul class="second-sub-menu">
 													<li><a href="/niche_supplies">Niche Supplies</a></li>
