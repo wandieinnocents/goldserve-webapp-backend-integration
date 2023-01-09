@@ -175,7 +175,7 @@ Goldserve - Uganda | Consulting Training | Safety Supplies
 			-->
 			<div class="home-service-section">
 				<div class="container">
-					<div class="col-md-9 col-md-offset-3 main-container">
+					<div class="col-md-12 main-container">
 						<div class="theme-title">
 							<h6>Our Services</h6>
 							<h2>We are your reliable B2B Operational Services Partner </h2>
