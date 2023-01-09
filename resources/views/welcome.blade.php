@@ -45,9 +45,9 @@ Goldserve - Uganda | Consulting Training | Safety Supplies
 						</div> <!-- /.col- -->
 						<div class="col-md-3 hidden-sm col-xs-12 wow fadeInRight">
 							<div class="single-block">
-								<div class="icon color-three"><i class="flaticon-diamond"></i></div>
+								<div class="icon color-three"><i class="flaticon-layers"></i></div>
 								<!-- <h6> Expat Services </h6> -->
-								<h5><a href="expat_orientaion.html" class="tran3s">Expat Services</a></h5>
+								<h5><a href="training.html" class="tran3s">Training Services</a></h5>
 							</div> <!-- /.single-block -->
 						</div> <!-- /.col- -->
 					</div> <!-- /.row -->
@@ -180,7 +180,7 @@ Goldserve - Uganda | Consulting Training | Safety Supplies
 							<h6>Our Services</h6>
 							<h2>We are your reliable B2B Operational Services Partner </h2>
 							<!-- <p> Construction, and Manufacturing sectors. Founded as Gold Leaf Holdings Ltd in 2005.</p> -->
-							<a href="service-v1.html" class="tran3s">See All Services</a>
+							{{-- <a href="service-v1.html" class="tran3s">See All Services</a> --}}
 						</div> <!-- /.theme-title -->
 						<ul class="clearfix row">
 							<li class="col-md-6">
@@ -213,7 +213,7 @@ Goldserve - Uganda | Consulting Training | Safety Supplies
 							</li>
 						</ul>
 					</div> <!-- /.main-container -->
-					<img src="assets/frontend/images/home/shape-2.png" alt="Image" class="wow fadeInLeft">
+					<!-- <img src="images/home/shape-2.png" alt="Image" class="wow fadeInLeft"> -->
 				</div> <!-- /.container -->
 			</div> <!-- /.home-service-section -->
 

@@ -45,12 +45,12 @@
                                     @csrf
 
 
-                                    <input type="text" placeholder="Full Name" name="name">
-                                    <input type="text" placeholder="Subject*" name="subject">
-                                    <input type="text" placeholder="Phone" name="phone">
-                                    <input type="email" placeholder="Email Address*" name="email">
+                                    <input type="text" placeholder="Full Name" name="name" required>
+                                    <input type="text" placeholder="Subject*" name="subject" required>
+                                    <input type="text" placeholder="Phone" name="phone" required>
+                                    <input type="email" placeholder="Email Address*" name="email" required>
 
-									<textarea placeholder="Your Message*" name="description"></textarea>
+									<textarea placeholder="Your Message*" name="description" required></textarea>
 									<button type="submit" class="p-bg-color hvr-trim-two">SEND MESSAGE</button>
 								</form>
 							</div> <!-- /.contact-us-form -->
