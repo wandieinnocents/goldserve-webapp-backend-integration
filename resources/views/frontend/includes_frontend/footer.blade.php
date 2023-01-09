@@ -1,4 +1,6 @@
-<footer class="bg-one">
+
+
+				<footer class="bg-one">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3 col-sm-6 col-xs-12">
@@ -14,8 +16,9 @@
 						<div class="col-md-3 col-sm-6 col-xs-12 footer-list">
 							<h4>Uganda</h4>
 							<ul>
-								<li><a href="#" class="tran3s">4th Floor Aha Towers</a></li>
-								<li><a href="#" class="tran3s">Lourdel Road,</a></li>
+								<li><a href="#" class="tran3s">4th Floor Acacia Place</a></li>
+								<li><a href="#" class="tran3s">Plot 7 Acacia Avenue,</a></li>
+								<li><a href="#" class="tran3s">Kololo - Kampala,</a></li>
 								<li><a href="#" class="tran3s">Telephone: +256-312-531-682</a></li>
 								<li><a href="#" class="tran3s">consulting@gold-serve.com</a></li>
 							</ul>

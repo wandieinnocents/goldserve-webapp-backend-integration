@@ -12,7 +12,7 @@
 				<div class="opacity">
 					<h1>More About Us!</h1>
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="/">Home</a></li>
 						<li>/</li>
 						<li>About us</li>
 					</ul>
@@ -33,7 +33,6 @@
 						<h2>More About Us!
 						</h2>
 					</div>
-					<img src="assets/frontend/images/inner-page/1.jpg" alt="">
 					<div class="about-tab-wrapper clearfix">
 						<ul class="nav nav-tabs float-left">
 							<li class="active"><a data-toggle="tab" href="#history">WHO WE ARE</a></li>
