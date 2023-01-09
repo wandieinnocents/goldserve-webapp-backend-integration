@@ -32,19 +32,19 @@
 											
 											<li class="dropdown-holder"><a href="javascript::void(0)">Business Support Services</a>
 												<ul class="second-sub-menu">
-													<li><a href="facility_management.html">Facility Management</a></li>
-													<li><a href="expat_orientaion.html">Expat Services</a></li>
+													<li><a href="/facility_management">Facility Management</a></li>
+													<li><a href="/expat_orientaion">Expat Services</a></li>
 													<!-- <li><a href="">Vendor Management</a></li> -->
-													<li><a href="consulting_services.html">Consulting Services Management</a></li>
-													<li><a href="qshe_services.html">QSHE Services</a></li>
+													<li><a href="/consulting_services_management">Consulting Services Management</a></li>
+													<li><a href="/qhse_services">QSHE Services</a></li>
 												</ul>
 											</li>
 											<li><a href="techncal_mpower.html">Techninal ManPower Services</a></li>
 											<li class="dropdown-holder"><a href="javascript::void(0)">General Supplies and Works</a>
 												<ul class="second-sub-menu">
-													<li><a href="niche_supplies.html">Niche Supplies</a></li>
-													<li><a href="procurement.html">Procurement Buy House </a></li>
-													<li><a href="works.html">Bespoke Workspace Adaptations</a></li>
+													<li><a href="/niche_supplies">Niche Supplies</a></li>
+													<li><a href="/procurement_buy_house">Procurement Buy House </a></li>
+													<li><a href="/bespoke_workspace_adaptations">Bespoke Workspace Adaptations</a></li>
 												</ul>
 											</li>
 											<!-- <li><a href="about-us.html">About us</a></li>

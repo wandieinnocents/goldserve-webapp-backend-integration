@@ -20,32 +20,32 @@ class FrontEndPagesController extends Controller
     
     public function facility_management(){
 
-        return ""facility management"";
+        return view("frontend.pages_frontend.facility_management.index");
     }
 
     
     //expat orienttion
     public function expat_orientaion(){
 
-        return ""expert management"";
+        return view("frontend.pages_frontend.expat_orientaion.index");
     }
     // consulting_services_management
     public function consulting_services_management(){
 
-        return ""consulting_services_management"";
+        return view("frontend.pages_frontend.consulting_services_management.index");
     }
 
     //qhse_services
     public function qhse_services(){
 
-        return ""qhse_services"";
+        return view("frontend.pages_frontend.qhse_services.index");
     }
 
 
     //niche_supplies
     public function niche_supplies(){
 
-        return ""niche_supplies"";
+        return view("frontend.pages_frontend.niche_supplies.index");
     }
 
 
@@ -53,13 +53,13 @@ class FrontEndPagesController extends Controller
     //procurement_buy_house
     public function procurement_buy_house(){
 
-        return ""procurement_buy_house"";
+        return view("frontend.pages_frontend.procurement_buy_house.index");
     }
 
     //bespoke_workspace_adaptations
     public function bespoke_workspace_adaptations(){
 
-        return ""bespoke_workspace_adaptations"";
+        return view("frontend.pages_frontend.bespoke_workspace_adaptations.index");
     }
    
 
