@@ -16,7 +16,7 @@ Testimonials
 				<div class="opacity">
 					<h1>Our service</h1>
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="/">Home</a></li>
 						<li>/</li>
 						<li>Service Details</li>
 					</ul>
@@ -25,91 +25,56 @@ Testimonials
 
 
 
-			<!--
-			=============================================
-				Our Service Details
-			==============================================
-			-->
-			<div class="service-details">
-				<div class="container">
-					<div class="box-wrapper">
-						<img src="assets/frontend/images/home/13.jpg" alt="" class="feature-image">
-						<div class="title clearfix">
-							<h3 class="float-left">Complete Business solution</h3>
-							<a href="#" class="loan float-right">Apply Now</a>
-						</div> <!-- /.title -->
-						<div class="top-text">
-							<h4>There are numerous success stories you will hear about businesses making it goodes on the internet .The troubling thing is, there are maybe with tenfold or even a hundredfold of stories inconsistent to theirs.</h4>
-							<div class="row">
-								<div class="col-md-6 wow fadeInLeft"><p>Sometimes this is airony promoting  businesse product and services, because for fact that you want make ur business recognizable & earn sales of course you need with lot of effort.</p></div>
-								<div class="col-md-6 wow fadeInRight"><p>Sometimes this is airony promoting  businesse product and services, because for fact that you want make ur business recognizable & earn sales of course you need with lot of effort.</p></div>
-							</div>
-						</div> <!-- /.top-text -->
-
-						<div class="middle-text list-box-text wow fadeInUp">
-							<h3>Included Featues</h3>
-							<p>Achieve all your goals and aspirations; with the right kind of help, exactly when you need it.</p>
-							<ul>
-								<li>
-									<h4>Mobile Game Devlo.</h4>
-									<p>Sometimes this is airony promoting  businesse product and services, because for fact that you want make ur business recognizable & earn sales of course you need with lot of effort.</p>
-								</li>
-								<li>
-									<h4>Be Wordpress Theme.</h4>
-									<p>Sometimes this is airony promoting  businesse product and services, because for fact that you want make ur business recognizable & earn sales of course you need with lot of effort.</p>
-								</li>
-								<li>
-									<h4>Graphic Design.</h4>
-									<p>Sometimes this is airony promoting  businesse product and services, because for fact that you want make ur business recognizable & earn sales of course you need with lot of effort.</p>
-								</li>
-							</ul>
-						</div> <!-- /.middle-text -->
-
-						<div class="bottom-text list-box-text wow fadeInUp">
-							<h3>Boost your website</h3>
-							<p>Any salaried, self-employed or professional Public and Privat companies, Government sector employees including Public Sector is eligible for a personal loan.</p>
-							<div class="row">
-								<div class="col-md-6">
-									<ul>
-										<li>
-											<h4>Design &amp; Devlopment</h4>
-											<p>Sometimes this is airony promoting  businesse product and services, because for fact that you want make ur business</p>
-										</li>
-									</ul>
+			<!-- ==================== TWO SECTION WRAPPER ====================== -->
+			<div class="two-section-wrapper">
+				<!-- 
+				=============================================
+					Testimonial
+				============================================== 
+				-->
+				<div class="testimonial-section bg-image">
+					<div class="container">
+						<div class="main-container col-md-6 col-md-offset-6">
+							<div class="theme-title">
+								<h6>Testimonials</h6>
+								<h2>Check what our clients <br>Say about us</h2>
+							</div> <!-- /.theme-title -->
+							<div class="testimonial-slider">
+								<div class="item">
+									<div class="wrapper">
+										<p>  
+											Professional, quick & efficient service is what describes GoldServe. I waited days for other companies to get back to me with their quotes. GoldServe's professionalism and creative ideas throughout the entire process impressed me and the project was completed right on schedule and within our budget. GoldServe were courteous and efficient. We would highly recommend GoldServe to any company that needs their services.
+											</p>
+										<div class="name clearfix">
+											<!-- <img src="images/home/4.jpg" alt=""> -->
+											<h5>Leading Ugandan Cosmetics Manufacturer</h5>
+											<span>Procurement Manager </span>
+										</div>
+									</div> <!-- /.wrapper -->
 								</div>
-								<div class="col-md-6">
-									<ul>
-										<li>
-											<h4>Content Creation</h4>
-											<p>Sometimes this is airony promoting  businesse product and services, because for fact that you want make ur business</p>
-										</li>
-									</ul>
-								</div>
-								<div class="col-md-6">
-									<ul>
-										<li>
-											<h4>Technical Service</h4>
-											<p>Sometimes this is airony promoting  businesse product and services, because for fact that you want make ur business</p>
-										</li>
-									</ul>
-								</div>
-								<div class="col-md-6">
-									<ul>
-										<li>
-											<h4>Business Services</h4>
-											<p>Sometimes this is airony promoting  businesse product and services, because for fact that you want make ur business</p>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div> <!-- /.bottom-text -->
-					</div> <!-- /.box-wrapper -->
-				</div> <!-- /.container -->
-			</div> <!-- /.service-details -->
-
-
-
-
-
+								<div class="item">
+									<div class="wrapper">
+										<p>Great prices, great work! From start to finish! If there was an award for superior customer service, Gold Serve would win every year. I can't believe, they have trained our staff this perfect, our HSE procedures are now better - and all this within our budget, quicker than they told us it would take. We refer them to all of our contractors & suppliers.</p>
+										<div class="name clearfix">
+											<!-- <img src="images/home/4.jpg" alt=""> -->
+											<h5>Regional Oil Marketing Company</h5>
+											<span>HSE Manager</span>
+										</div>
+									</div> <!-- /.wrapper -->
+								</div> <!-- /.item --> 
+								<div class="item">
+									<div class="wrapper">
+										<p>GoldServe is committed to ensuring that our operations and those of our international partners comply with local or national content regulations. It's our mission to foster development of the local communities in which we operate and create the environment conducive for adequate skills transfer. As a company 100% owned and managed by nationals, we are open to engaging with potential international firms as partners on local or regional projects. </p>
+										<!-- <div class="name clearfix">
+											<img src="images/home/3.jpg" alt="">
+											<h5></h5>
+											<span></span>
+										</div> -->
+									</div> <!-- /.wrapper -->
+								</div> <!-- /.item -->
+							</div> <!-- /.testimonial-slider -->
+						</div> <!-- /.main-container -->
+					</div> <!-- /.container -->
+				</div> <!-- /.testimonial-section -->
 
 @endsection
