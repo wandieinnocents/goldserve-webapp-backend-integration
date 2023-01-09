@@ -40,14 +40,14 @@ Goldserve - Uganda | Consulting Training | Safety Supplies
 							<div class="single-block">
 								<div class="icon color-three"><i class="flaticon-diamond"></i></div>
 								<!-- <h6>Web Solution</h6> -->
-								<h5><a href="techncal_mpower.html" class="tran3s">Technical Manpower</a></h5>
+								<h5><a href="#" class="tran3s">Technical Manpower</a></h5>
 							</div> <!-- /.single-block -->
 						</div> <!-- /.col- -->
 						<div class="col-md-3 hidden-sm col-xs-12 wow fadeInRight">
 							<div class="single-block">
 								<div class="icon color-three"><i class="flaticon-layers"></i></div>
 								<!-- <h6> Expat Services </h6> -->
-								<h5><a href="training.html" class="tran3s">Training Services</a></h5>
+								<h5><a href="#" class="tran3s">Training Services</a></h5>
 							</div> <!-- /.single-block -->
 						</div> <!-- /.col- -->
 					</div> <!-- /.row -->
@@ -186,28 +186,28 @@ Goldserve - Uganda | Consulting Training | Safety Supplies
 							<li class="col-md-6">
 								<div>
 									<i class="flaticon-user"></i>
-									<h5><a href="facility_management.html" class="tran3s"> Business Support Services </a></h5>
+									<h5><a href="#" class="tran3s"> Business Support Services </a></h5>
 									<p>Service Excellence  </p>
 								</div>
 							</li>
 							<li class="col-md-6">
 								<div>
 									<i class="flaticon-layers"></i>
-									<h5><a href="niche_supplies.html" class="tran3s">Gen Supplies and Works  </a></h5>
+									<h5><a href="#" class="tran3s">Gen Supplies and Works  </a></h5>
 									<p>Delivering niche products and services to projects in Uganda and East Africa </p>
 								</div>
 							</li>
 							<li class="col-md-6">
 								<div>
 									<i class="flaticon-bar-chart"></i>
-									<h5><a href="techncal_mpower.html" class="tran3s">Technical Manpower</a></h5>
+									<h5><a href="#" class="tran3s">Technical Manpower</a></h5>
 									<p>Powering your projects  </p>
 								</div>
 							</li>
 							<li class="col-md-6">
 								<div>
 									<i class="flaticon-smartphone"></i>
-									<h5><a href="expat_orientaion.html" class="tran3s">Expat Services</a></h5>
+									<h5><a href="#" class="tran3s">Expat Services</a></h5>
 									<p>With Service Excellence   </p>
 								</div>
 							</li>
@@ -389,66 +389,87 @@ Goldserve - Uganda | Consulting Training | Safety Supplies
 			</div> 
 			
 
-
-			<!-- 
+	<!-- 
 			=============================================
-				Home Blog Section
+				FAQ Section
 			============================================== 
 			-->
 			<div class="home-blog-section">
 				<div class="container">
 					<div class="theme-title text-center">
-						<h6>LATEST BLOG</h6>
-						<h2>Stay Updated With Us</h2>
+						<h6>Frequently Asked Questions</h6>
+						<h2>What People commonly ask</h2>
 					</div> <!-- /.theme-title -->
 					<div class="row">
-						<div class="col-md-6 col-xs-12">
-							<div class="single-blog color-one">
-								<img src="assets/frontend/images/home/6.jpg" alt="">
-								<h6>Isaac Goldserve</h6>
-								<h5><a href="blog-details.html" class="tran3s">WE OPENING NEW BRANCH ON ...</a></h5>
-								<!-- <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p> -->
-								<a href="blog-details.html" class="tran3s hvr-icon-wobble-horizontal">More Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-							</div> <!-- /.single-blog -->
-						</div> <!-- /.col- -->
-						<div class="col-md-6 col-xs-12">
-							<div class="single-blog color-two">
-								<img src="assets/frontend/images/home/7.jpg" alt="">
-								<h6>Esther</h6>
-								<h5><a href="blog-details.html" class="tran3s">ESTIMATE COST FOR YOUR SHIPMENT</a></h5>
-								<!-- <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p> -->
-								<a href="blog-details.html" class="tran3s hvr-icon-wobble-horizontal">More Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-							</div> <!-- /.single-blog -->
-						</div> <!-- /.col- -->
-						<div class="col-md-6 col-xs-12">
-							<div class="single-blog color-three">
-								<img src="assets/frontend/images/home/8.jpg" alt="">
-								<h6>Adams</h6>
-								<h5><a href="blog-details.html" class="tran3s">Challange yourself to win the future</a></h5>
-								<!-- <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p> -->
-								<a href="blog-details.html" class="tran3s hvr-icon-wobble-horizontal">More Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-							</div> <!-- /.single-blog -->
-						</div> <!-- /.col- -->
-						<div class="col-md-6 col-xs-12">
-							<div class="single-blog color-four">
-								<img src="assets/frontend/images/home/9.jpg" alt="">
-								<h6>Austin Cross</h6>
-								<h5><a href="blog-details.html" class="tran3s">Challange yourself to win the future</a></h5>
-								<!-- <p>Their testimonial videos aren't production quality, but they get message across, cover useful & relevant information with tips.</p> -->
-								<a href="blog-details.html" class="tran3s hvr-icon-wobble-horizontal">More Details <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-							</div> <!-- /.single-blog -->
-						</div> <!-- /.col- -->
+						<div class="middle-text list-box-text wow fadeInUp">
+							<!-- <h3>Included Featues</h3> -->
+							<!-- <p>Achieve all your goals and aspirations; with the right kind of help, exactly when you need it.</p> -->
+							<ol>
+								<li>
+									<h6>What is your Facility Management Services package like?</h6><br>
+									<p>We provide an integrated facility management solution in which we manage the front-end aspects of the operation or called Soft Facility Management while vendor managing the more technical aspects otherwise known as Hard Facility Management. We enable clients settle via a single invoice over flexible invoice settlement periods and afford the peace of mind of having a One point of contact for enquiries and invoicing, with a dedicated client services representative.</p>
+								</li>
+								<br>
+								<li>
+									<h6>How do you deliver you training?</h6><br>
+									<p>We provide training sessions to corporate entities in integrated project format. </p>
+								</li>
+								<br>
+								<li>
+									<h6>How is the training done in an integrated format?</h6><br>
+									<p>We start by engaging the entity on the training need, we conduct some baseline studies on the knowledge gaps of the intended audience, develop content and a curriculum basing on the findings, recruit project teams for the delivery, (upon clearance from a sponsoring entity) we then commence the training project and conclude at the agreed time and budget.  </p>
+								</li>
+								<br>
+								<li>
+								  <h6>How can we develop a QHSE culture in our company?</h6><br>
+								  <p>
+									<ul>
+										<li>▪ Create a safety committee / team.</li>
+										<li>▪ Set clear standards for workplace safety.</li>
+										<li>▪ Get employees involved</li>
+										<li>▪ Promote understanding through trainings…</li>
+									</ul>
+								  </p>
+								</li>
+                                <br>
+								<li>
+									<h6>Why is National Content Compliance important?</h6><br>
+									<p>Helps a foreign company comply with laws governing a nation and industry in order to smoothly participate and win tenders in that sector.</p>
+								</li>
+                                <br>
+								<li>
+									<h6>How do you support businesses in the area of custom workplace adaptions?</h6><br>
+									<p>we provide our clients with a service that allows them to focus on their day-to-day business dealings while we take the stress out of the office move, refit, or safety adaptations, We work with commercial tenants to ensure their workspaces are designed and custom-built to suit their tests, preferences, and brand aspirations. Working with your architect we custom design your workspace with convenience, staff safety, functionality, and your brand in mind. </p>
+								</li>
+								<br>
+								<li>
+									<h6>How is your Expat Orientation program like?</h6><br>
+									<p>We offer first hand corporate safety inductions, open doors and support organisations settle their recently arrived foreign skilled workers with in the country. We work with Human Capital teams on issues like accommodation options, transport and travel arrangements, multi lingual support staff, education places for their children, local registrations and cultural immersions to mention but a few.  </p>
+								  </li>
+								  <br>
+								  <li>
+									  <h6>How can I join your Technical Manpower Provision List?</h6><br>
+									  <p>Share your CV with a cover letter stating what you do and why you want to be part of us to <b>consulting@gold-serve.com</b> and we shall get back to you.
+									</p>
+								  </li>
+								  <br> 
+								  <li>
+									  <h6>How can we prepare for ISO 9001 certification as a company?</h6>
+									  <br>
+									  <p>  
+										<ul>
+											<li>▪ Have all the necessary compliance documentation that govern your industry and country of operations.
+											</li>
+											<li>▪ Set up a well-documented organized management system and…</p>
+											</li>
+										</ul>  
+									  </li>
+				
+							</ol>
+						</div> <!-- /.middle-text -->
 					</div> <!-- /.row -->
 				</div> <!-- /.container -->
 			</div> <!-- /.home-blog-section -->
-
-
-			
-			<!-- 
-			=============================================
-				Footer
-			============================================== 
-			-->
 			
 
 
