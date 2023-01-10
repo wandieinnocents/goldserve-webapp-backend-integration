@@ -13,11 +13,11 @@ Trainings
 			-->
 			<div class="inner-page-banner">
 				<div class="opacity">
-					<h1>Trainings Services</h1>
+					<h1>CONSULTING SERVICES MANAGEMNT</h1>
 					<ul>
 						<li><a href="/">Home</a></li>
 						<li>/</li>
-						<li>Trainings</li>
+						<li>CONSULTING SERVICES MANAGEMNT</li>
 					</ul>
 				</div> <!-- /.opacity -->
 			</div> <!-- /inner-page-banner -->
