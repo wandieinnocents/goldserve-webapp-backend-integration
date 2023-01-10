@@ -14,11 +14,11 @@ Testimonials
 			-->
 			<div class="inner-page-banner">
 				<div class="opacity">
-					<h1>Our service</h1>
+					<h1>Our Testimonials</h1>
 					<ul>
 						<li><a href="/">Home</a></li>
 						<li>/</li>
-						<li>Service Details</li>
+						<li>Our Testimonials</li>
 					</ul>
 				</div> <!-- /.opacity -->
 			</div> <!-- /inner-page-banner -->
